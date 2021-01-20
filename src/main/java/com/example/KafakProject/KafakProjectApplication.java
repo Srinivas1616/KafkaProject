@@ -18,11 +18,13 @@ public class KafakProjectApplication {
 
 	private String topic = "communication";
 
+	//when basic literals are used instead of whole objects 
+	
 	@GetMapping("/publish/sms/{name}")
 	@ResponseBody
 	public String publishMessage(@PathVariable String name) {
 		template.send(topic, "Hi " + name + " Welcome to java techie");
-		return "Data published";
+		return "Data published"+name;
 	}
 
 	@GetMapping("/publish/email")
