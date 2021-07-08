@@ -1,0 +1,11 @@
+[33mcommit ddeb32a5ee293f05fc8c8694f91c2c8b21006ad6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Srinivas Natikar <Srinivas.Natikar@msg-global.com>
+Date:   Wed Jan 20 07:54:32 2021 +0530
+
+    literal use in Kafka template
+
+[33mcommit 90b8a79bb33875097b6e07770e5f063937ced85c[m
+Author: Srinivas Natikar <Srinivas.Natikar@msg-global.com>
+Date:   Sat Jan 9 10:22:14 2021 +0530
+
+    First commit
